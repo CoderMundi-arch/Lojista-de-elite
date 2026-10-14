@@ -1,0 +1,6 @@
+Página de produtos — Lojista de Elite
+
+Arquivos da versão local exibida na porta 4190.
+Abra index.html para visualizar. Para publicar, envie o conteúdo desta pasta para a hospedagem, mantendo a estrutura de arquivos.
+
+Os botões de compra apontam para os checkouts da Hotmart.

@@ -1,0 +1,7 @@
+Página do grupo gratuito — Lojista de Elite
+
+Versão atual da página local na porta 4191, incluindo os últimos ajustes de headline no celular e remoção da frase abaixo do primeiro botão.
+
+Abra index.html para visualizar. Para publicar, envie os arquivos desta pasta para a hospedagem, preservando a estrutura.
+Os dois botões apontam para o grupo do WhatsApp.
+As fontes usam Google Fonts e precisam de conexão para carregar; há fontes alternativas configuradas.

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--bg:#111210;--ink:#f4f3ec;--muted:#abaea5;--orange:#ff793e;--line:#32342e}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.65}a{color:inherit;text-decoration:none}button,a,summary{-webkit-tap-highlight-color:transparent}a:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:5px}.wrap{max-width:1280px;margin:auto;padding-left:52px;padding-right:52px}header{height:98px;max-width:1280px;margin:auto;padding:0 52px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;line-height:1.15}.brand>b{font:800 38px 'Manrope',sans-serif;letter-spacing:-3px}.brand>b span{font-size:10px;vertical-align:top;letter-spacing:0}.brand>span{font-size:10px;font-weight:700;letter-spacing:1.5px;border-left:1px solid #555;padding-left:12px}nav{display:flex;gap:28px;font-size:14px;color:#d6d8ce}nav a:hover,.text-link:hover{color:var(--orange)}.header-cta{border:1px solid #76796c;border-radius:5px;padding:10px 18px;font-size:14px}.hero{position:relative;display:grid;grid-template-columns:1.12fr 1fr;gap:44px;padding-top:60px}.hero-copy{padding-top:35px;padding-bottom:55px}.eyebrow{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--orange);margin:0 0 24px}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:'Manrope',sans-serif;line-height:1.1}h1{font-size:clamp(40px,4.7vw,64px);letter-spacing:-3px;font-weight:600;margin-bottom:26px}em{font-style:normal;color:var(--orange)}.lead{color:#c3c6bb;max-width:470px;font-size:17px;line-height:1.8}.button{display:inline-flex;align-items:center;justify-content:center;background:var(--orange);color:#17130f;font-size:14px;font-weight:800;padding:17px 25px;border-radius:5px;min-height:54px;margin-top:12px;transition:background .2s,transform .2s}.button:hover{background:#ff9969;transform:translateY(-2px)}.micro{font-size:12px;color:var(--muted);margin-top:16px}.portrait{position:relative;border-radius:8px;overflow:hidden;min-height:515px;background:#302c25}.portrait img{width:100%;height:100%;position:absolute;object-fit:cover;object-position:center 25%}.portrait:after{content:'';position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#10120fec)}.portrait-label{position:absolute;z-index:1;bottom:30px;left:30px}.portrait-label span{display:block;font-size:10px;letter-spacing:1.4px;color:#e1dfd4;margin-bottom:10px}.portrait-label b{font:500 26px/1.2 'Manrope',sans-serif}.hero-foot{grid-column:1/-1;display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:0 0 28px;font-size:10px;letter-spacing:2px;color:#858b7c}.products{padding-top:90px;padding-bottom:70px}.section-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:42px}h2{font-size:44px;font-weight:500;letter-spacing:-1.8px;margin-bottom:0}.section-head>p{max-width:330px;color:var(--muted);font-size:15px;margin-bottom:4px}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.product{border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#1b1d19;--accent:#ff9867;scroll-margin-top:30px}.lilac{--accent:#cabdf7}.lime{--accent:#d4e986}.product-top{padding:17px 20px;display:flex;justify-content:space-between;background:var(--accent);color:#20221b;font-size:9px;letter-spacing:.8px;font-weight:700;border-bottom:1px solid #0002}.product-name{background:var(--accent);color:#181c17;padding:32px 23px 25px;min-height:240px}.product-name>span{font:500 17px 'Manrope';letter-spacing:4px;display:block}.product-name strong{font:800 clamp(30px,3vw,42px) 'Manrope';letter-spacing:-2px;display:block}.product-name strong span{font-size:13px;vertical-align:top;letter-spacing:0}.product-name p{margin:18px 0 0;font-size:13px;line-height:1.5}.product-body{padding:26px 23px}.product h3{font-size:19px;letter-spacing:-.5px;font-weight:600}.product-body>p{font-size:14px;color:var(--muted);min-height:92px}.product ul{list-style:none;padding:0;margin:24px 0 30px;font-size:13px;color:#d4d6cf}.product li{padding:6px 0}.product li:before{content:'✓';color:var(--accent);margin-right:9px}.price{border-top:1px solid var(--line);padding-top:20px}.price>span{font-size:18px}.price b{font:600 38px 'Manrope';letter-spacing:-1px}.price small{display:block;color:var(--muted);font-size:11px;min-height:25px}.buy{display:flex;justify-content:center;background:var(--accent);color:#1d2117;border-radius:4px;padding:14px 8px;margin-top:18px;font-size:14px;font-weight:700}.buy:hover{filter:brightness(1.12)}.checkout-note{font-size:12px;color:#999d91;max-width:720px;margin:24px auto 0;text-align:center}.choice{background:#e9ece3;color:#20251d;padding:76px 0}.choice .eyebrow{color:#667348}.choice em{color:#697c3c}.choice .section-head>p{color:#5f6858}.choices{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.choices a{padding:25px 0;border-top:1px solid #aeb5a6}.choices a>span{font-size:13px;color:#768466}.choices h3{font-size:21px;line-height:1.45;margin:22px 0 15px}.choices p{font-size:14px;color:#5e6854}.choices b{font-size:13px;border-bottom:1px solid #7f906d;padding-bottom:5px}.about{padding-top:100px;padding-bottom:100px;display:grid;grid-template-columns:1fr 1fr;gap:65px;border-bottom:1px solid var(--line)}.about-lead{font:500 30px/1.4 'Manrope';letter-spacing:-1px}.about p:not(.eyebrow):not(.about-lead){color:var(--muted);font-size:16px}.text-link{font-size:14px;border-bottom:1px solid #707667;padding-bottom:6px;display:inline-block;margin-top:16px}.faq{padding-top:80px;padding-bottom:70px;max-width:900px}.faq h2{margin-bottom:38px}.faq details{border-bottom:1px solid var(--line);padding:20px 0}.faq summary{cursor:pointer;font-size:16px;font-weight:500;padding-right:15px}.faq details p{color:var(--muted);font-size:14px;margin:18px 0 0;max-width:700px}.final-cta{text-align:center;padding-top:65px;padding-bottom:80px}.final-cta h2{font-size:48px;margin-bottom:20px}footer{border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:35px;padding-bottom:35px}footer p,footer>a:last-child{font-size:12px;color:var(--muted);margin:0}@media(max-width:900px){.wrap{padding-left:28px;padding-right:28px}header{padding:0 28px}nav{gap:15px}.header-cta{display:none}.hero{gap:22px}.hero h1{font-size:44px}.product-grid{gap:12px}.product-top{padding:15px 12px;font-size:8px}.product-body{padding:22px 16px}.product-name{padding:28px 16px}.product-name strong{font-size:31px}.product h3{font-size:17px}.product-body>p{min-height:120px}}@media(max-width:640px){html{scroll-padding-top:20px}header{height:auto;padding:22px;flex-wrap:wrap;gap:20px}.brand>b{font-size:32px}nav{width:100%;justify-content:space-between;border-top:1px solid var(--line);padding-top:15px;font-size:12px}.wrap{padding-left:22px;padding-right:22px}.hero{padding-top:35px;grid-template-columns:1fr;gap:25px}.hero-copy{padding:0}.eyebrow{font-size:9px;margin-bottom:18px;letter-spacing:1.6px}.hero h1{font-size:43px;letter-spacing:-2px}.lead{font-size:16px}.hero .button{width:100%;font-size:13px}.portrait{min-height:360px}.portrait img{object-position:center 22%}.portrait-label{left:24px;bottom:24px}.hero-foot{font-size:8px;gap:20px;letter-spacing:1px}.hero-foot span:last-child{display:none}.products{padding-top:55px;padding-bottom:50px}.section-head{display:block;margin-bottom:30px}h2{font-size:34px;letter-spacing:-1.2px}.section-head>p{margin-top:22px}.product-grid{grid-template-columns:1fr;gap:25px}.product-top{font-size:10px;padding:16px 23px}.product-name{min-height:210px;padding:28px 25px}.product-name strong{font-size:45px}.product-body{padding:25px}.product h3{font-size:22px}.product-body>p{min-height:0;font-size:15px}.product ul{font-size:14px}.product-name p{font-size:14px}.choice{padding:55px 0}.choices{grid-template-columns:1fr;gap:0}.choices h3{margin-top:13px}.choices a{position:relative;padding:24px 0}.choices a>span{position:absolute;right:0}.about{grid-template-columns:1fr;gap:32px;padding-top:60px;padding-bottom:60px}.about-lead{font-size:26px}.faq{padding-top:55px;padding-bottom:30px}.faq summary{font-size:15px}.final-cta{padding-top:50px;padding-bottom:55px}.final-cta h2{font-size:34px}footer{flex-wrap:wrap}footer .brand{width:100%}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Identidade revisada: neutros com laranja como único destaque. */
+.product,.lilac,.lime{--accent:var(--orange)}
+.product-top{background:#20221e;color:#c4c7be;border-bottom:1px solid var(--line)}
+.product-name{background:#191b18;color:var(--ink);border-bottom:1px solid var(--line)}
+.product-name>span{color:var(--muted)}
+.product-name strong{color:var(--ink)}
+.product-name p{color:var(--muted)}
+.choice{background:#1a1c18;color:var(--ink);border-block:1px solid var(--line)}
+.choice .eyebrow,.choice em{color:var(--orange)}
+.choice .section-head>p,.choices p{color:var(--muted)}
+.choices a{border-color:var(--line)}
+.choices a>span{color:var(--orange)}
+.choices b{border-color:#686b61}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.button.secondary{background:transparent;color:var(--ink);border:1px solid #62665b}
+.button.secondary:hover{background:#252820}
+@media(max-width:640px){header{height:78px;padding:18px 22px}.hero-actions{gap:10px}.hero-actions .button{width:auto;flex:1 1 auto;padding-inline:16px}}
+
+.product-name .product-promise{font-size:14px;line-height:1.6;margin-top:22px}.product-promise b{display:block;color:var(--orange);font-size:19px;line-height:1.35;font-weight:700;margin-bottom:10px}.product-name{min-height:310px}@media(max-width:640px){.product-name{min-height:0}.product-promise b{font-size:21px}.hero-actions .button{flex:none;width:100%}}
+
+/* Cards compactos para celular, mantendo leitura e área de toque. */
+@media(max-width:640px){
+ .product-grid{gap:18px}
+ .product-top{padding:12px 16px;font-size:9px;gap:10px}
+ .product-name{padding:20px 18px;text-align:center}
+ .product-name>span{font-size:14px;letter-spacing:3px}
+ .product-name strong{font-size:38px;line-height:1.2}
+ .product-name .product-promise{margin-top:14px;font-size:14px;line-height:1.5}
+ .product-promise b{font-size:19px;margin-bottom:7px}
+ .product-body{padding:18px}
+ .product-body>h3,.product-body>p{display:none}
+ .product ul{margin:0 0 15px;font-size:14px}
+ .product li{padding:4px 0}
+ .price{padding-top:13px;text-align:center}
+ .price b{font-size:34px}
+ .price small{min-height:0;margin-top:2px}
+ .buy{margin-top:13px;padding:13px 8px;min-height:48px}
+}
+
+/* Aproximar o título e seu apoio; compactar os produtos no desktop. */
+.choice .section-head{display:block;margin-bottom:28px}
+.choice .section-head>p{max-width:570px;margin:18px 0 0}
+@media(min-width:641px){
+ .product{display:flex;flex-direction:column}
+ .product-name{min-height:0;padding:24px 22px 20px;text-align:center}
+ .product-name .product-promise{margin-top:14px;line-height:1.5}
+ .product-promise b{font-size:18px;margin-bottom:7px}
+ .product-body{padding:20px 22px;display:flex;flex-direction:column;flex:1}
+ .product-body>h3,.product-body>p{display:none}
+ .product ul{margin:0 0 18px;font-size:14px}
+ .product li{padding:4px 0}
+ .price{padding-top:14px;margin-top:auto;text-align:center}
+ .price b{font-size:34px}
+ .price small{min-height:0}
+ .buy{margin-top:14px;min-height:48px;padding:12px 8px}
+ .choice{padding:56px 0}
+ .choices a{padding:20px 0 10px}
+ .choices h3{margin:15px 0 12px}
+}
+
+.products .section-head{display:block;margin-bottom:28px}
+.products .section-head>p{max-width:570px;margin:18px 0 0}
