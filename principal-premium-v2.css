@@ -141,3 +141,7 @@ header{position:relative;z-index:3}
 /* Ajuste do tamanho dos links Ver produto. */
 .choices b{font-size:20px}
 @media(max-width:640px){.choices b{font-size:20px}}
+
+/* Ajuste tipográfico: links Ver produto em 20px. */
+.choices b{font-size:20px}
+@media(max-width:640px){.choices b{font-size:20px}}
